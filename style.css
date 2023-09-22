@@ -1,0 +1,141 @@
+body, html {
+    height: auto;
+    margin: 0;
+  }
+  
+.bg {
+    background-image: url("./pexels-fwstudio-129731.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    min-height:1000px ;
+  }
+#home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#searchBox{
+    margin-top: 50px;
+    width: 500px;
+    padding: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    outline: 0;
+}
+
+#button{
+    margin-top: 50px;
+    margin-left: 8px;
+    padding: 5px;
+    width: 90px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(246, 247, 247);
+    background-color: rgb(71, 103, 248);
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+#suggestionBox{
+    position: absolute;
+    width: 500px;
+    height:auto;
+    top:92px;
+    left:0px;
+    background-color: #fff;
+    padding: 0;
+    border-radius: 12px;
+}
+
+.inputContainer{
+    position: relative;
+}
+
+#mealItem{
+    line-height: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#mealItem li{
+    padding: 8px 10px;
+    line-height: 1;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#searchResult{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.searchedData{
+   font-size: xx-large;
+   align-content: center;
+   margin: 5px;
+   padding: 5px;
+   background-color: #fff;
+   width: 100%;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: row;
+}
+
+#searchMethod{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.mealDescription{
+    display:flex ;
+    flex-direction: column;
+}
+
+.mealName{
+    color: rgb(91, 55, 252);
+    margin-left: 39px;
+    margin-bottom: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.mealDetails{
+    margin: 0;
+    list-style: none;
+    font-size: large;
+}
+
+.mealDescription button{
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 10px;
+    width: 90px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(246, 247, 247);
+    background-color: rgb(71, 103, 248);
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;  
+}
+
+.detailPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.mealSelected{
+    background-color: red;
+}
